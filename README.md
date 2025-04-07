@@ -1,10 +1,10 @@
-# Master Project: Temporal Relation Extraction from EHRs
+# Temporal Relation Extraction from EHRs using joint sequence labelling and natural language inference
 
 ## **Overview**
 
 In the modern healthcare system, overburdened workloads for healthcare providers have become a significant concern. This challenge is evident not only during crises like the COVID-19 pandemic but also in routine operations. Accurate diagnosis and treatment often require a meticulous review of electronic health records (EHRs), including the timing and dosage of treatments. However, this process is time-consuming and can strain resources.
 
-This project leverages **Natural Language Processing (NLP)** to automate the extraction and analysis of temporal information in EHRs. By identifying treatment start and end times and classifying temporal relationships, this approach aims to:
+This open-science investigation leverages **Natural Language Processing (NLP)** to automate the extraction and analysis of temporal information in EHRs. By identifying treatment start and end times and classifying temporal relationships, this approach aims to:
 - Alleviate healthcare providers' workload.
 - Improve patient care efficiency by reducing waiting times.
 
@@ -36,13 +36,4 @@ Two distinct methods are employed in this project:
 ### Run the respective notebook for the desired approach:
 - Sequence Labelling: model.ipynb
 - NLI-based Classification: NLI.ipynb
-
-## Earlier work
-[MedTem2.0](https://github.com/yang-C23/Third_year_project)
-
-## **References**
-- Cui, Yang, Han, Lifeng, & Nenadic, Goran. (2024). **MedTem: Temporal Relation Extraction of Clinical Events from Free Text Data**. [Link to paper](https://www.researchgate.net/profile/Lifeng-Han-3/publication/384463764_MedTem_Temporal_Relation_Extraction_of_Clinical_Events_from_Free_Text_Data/links/66fae52cb753fa724d549fbf/MedTem-Temporal-Relation-Extraction-of-Clinical-Events-from-Free-Text-Data.pdf)
-- Yang Cui, Lifeng Han, and Goran Nenadic. 2023. MedTem2.0: Prompt-based Temporal Classification of Treatment Events from Discharge Summaries. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop), pages 160–183, Toronto, Canada. Association for Computational Linguistics. [download](https://aclanthology.org/2023.acl-srw.27/)
-
-
 
