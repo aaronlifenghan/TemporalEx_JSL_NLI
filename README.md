@@ -37,9 +37,6 @@ Two distinct methods are employed in this project:
 - Sequence Labelling: model.ipynb
 - NLI-based Classification: NLI.ipynb
 
-## Earlier work
-[MedTem2.0](https://github.com/yang-C23/Third_year_project)
-
 ## Dataset Overview
 
 This dataset contains annotated medical text with temporal relations between treatment events and dates. It's designed for training NLP models to identify when medical treatments occurred relative to specific dates (before, after, or overlapping).
